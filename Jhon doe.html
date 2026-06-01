@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John doe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    header{
+        background-color:rgb(34, 31, 31);
+        color:white;
+        padding:3px 30px;
+        align-items:center;
+        display:flex;
+        justify-content:space-between;
+    }
+    header>div{
+        display:flex;
+        align-items:center;
+        gap:20px;
+    }
+
+    .s1{
+        background-color:rgb(34, 31, 31);
+        color:white;
+        padding:3px 30px;
+        display:flex;
+
+    }
+    .s1>div{
+        flex-basis:50%;
+    }
+    button{
+        padding:10px 20px;
+        background-color:rgb(7, 104, 30);
+        color:white;
+        border:none;
+        border-radius:100px;
+        margin:5px;
+
+    }
+
+    .image{
+        margin-left:auto;
+        width: 450px;
+        height:auto;
+        width: 450px;
+    }
+
+    .s2{
+        background-color:rgb(34, 31, 31);       
+        height:70vh;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .s2>div{
+        background-color:rgb(7, 104, 30);
+        color:white;
+        padding:15px;
+    }
+
+    .s3{
+        background-color:rgb(34, 31, 31);
+        color:white;
+        padding:20px 40px;
+        height:100vh;
+    }
+
+    .s3>h1{
+        text-align:center;
+        margin-bottom:20px;
+    }
+
+
+    .s3container{
+        display:flex;
+        gap:20px;
+        align-items:center;
+        height:60vh;
+    }
+
+    .s3cards{
+        flex-basis:20%;
+        text-align:center;
+        padding:20px;
+
+    }
+
+    .s3cards>div>i{
+        color:green;
+        margin:10px;
+    }
+
+    .s3cards>h3{
+        margin:10px;
+    }
+
+    .s4{
+        background-color:rgb(0, 0, 0);
+        color:white;
+        padding:20px 40px;
+        height:80vh; 
+    }
+
+    .s4cards{
+        flex-basis:20%;
+        text-align:center;
+        padding:20px;
+        gap:10px;
+        width:100%;
+    }
+
+    .s4>h1{
+        text-align:center;
+        margin-bottom:20px;
+    }
+
+    .s4cards>p{
+        margin:10px;
+    }
+
+    .s4container{
+        display:flex;
+        gap:20px;
+        justify-content:center;
+    }
+
+    .s5{
+        text-align:center;
+        color:black;
+        background-color:rgb(254, 252, 252);
+
+    }
+
+    table{
+        margin-top:20px;
+    }
+
+    td,th{
+        text-align:center;
+        padding:20px;
+    }
+
+</style>
+<body>
+    <header>
+        <div class="left">
+            <div>JD</div>
+            <h1>john doe</h1>
+        </div>
+        <div class="right">
+            <div>About</div>
+            <div>Achievements</div>
+            <div>Education</div>
+            <div>projects</div>
+            <div>Contact</div>
+        </div>
+    </header>
+
+    <section class="s1">
+        <div>
+            <h1>Hello, I'm <span style="color:green;">John Doe</span></h1><br>
+
+            <h3>i build simple & clean websites</h3><br>
+            <p>i am a student who loves to create beautiful and functional web experiences.</p><br>
+            <button>View Projects</button>
+            <button>Download CV</button>
+        </div>
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLGj_oISwS4abtBAe0lg6CPhLR3H3_vjgJ5Q&s" alt="">
+        </div>
+    </section>
+
+    <section class="s2">
+        <div>FullStack Developer</div>
+    </section>
+
+    <section class="s3">
+        <h1>what i do</h1>
+        <div class="s3container">
+            <div class="s3cards">
+                <div><i class="fa-regular fa-envelope"></i></div>
+                <h3>web design</h3>
+                <p>Creating beautiful and functional websites with a focus on user experience.</p>
+            </div>
+            <div class="s3cards">
+                <div><i class="fa-solid fa-code"></i></div>
+                <h3>Devolopment</h3>
+                <p>Building responsive and efficient web applications using modern technologies.</p>
+            </div>
+            <div class="s3cards">
+                <div><i class="fa-solid fa-fill"></i></div>
+                <h3>ui/ux design</h3>
+                <p>Designing intuitive and engaging user interfaces and experiences.</p>
+            </div>    
+            <div class="s3cards">
+                <div><i class="fa-solid fa-arrow-trend-down"></i></div>
+                <h3>SEO & Analytics</h3>
+                <p>Optimizing websites for search engines and analyzing performance to drive growth.</p>
+            </div>
+            <div class="s3cards">
+                <div><i class="fa-solid fa-rocket"></i></div>
+                <h3>Performance</h3>
+                <p>Improving website speed and performance to enhance user experience.</p>
+            </div>
+            <div class="s3cards">
+                <div><i class="fa-solid fa-headset"></i></div>
+                <h3>Support</h3>
+                <p>Providing ongoing support and maintenance to ensure websites are secure.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="s4">
+        <h1>my projects</h1>
+        <div class="s4container">
+            <div class="s4cards">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLGj_oISwS4abtBAe0lg6CPhLR3H3_vjgJ5Q&s" alt="">
+                <h3>project 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                <button>view project</button>
+            </div>
+            <div class="s4cards">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLGj_oISwS4abtBAe0lg6CPhLR3H3_vjgJ5Q&s" alt="">
+                <h3>project 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                <button>view project</button>
+            </div>
+            <div class="s4cards">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLGj_oISwS4abtBAe0lg6CPhLR3H3_vjgJ5Q&s" alt="">
+                <h3>project 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                <button>view project</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="s5"><br>
+        <h1>Education</h1><br>
+        <table border="1" cellpadding="10" width="100%">
+            <tr style="background-color:rgb(34, 31, 31); color:white;">
+                <th>Year</th>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>2020-2024</td>
+                <td>Bachelor of Science in Computer Science</td>
+                <td>andhra University</td>
+                <td>8.8/10.0</td>
+            </tr>
+            <tr>
+                <td>2018-2020</td>
+                <td>Associate Degree in Web Development</td>
+                <td>Community College of usmania university</td>
+                <td>8.9/10.0</td>
+            </tr>
+            <tr>
+                <td>2016-2018</td>
+                <td>High School Diploma</td>
+                <td>pragathi High School</td>
+                <td>8.7/10.0</td>
+            </tr>
+        </table>
+    </section><br>
+
+    <footer style="background-color:rgb(34, 31, 31); color:white; text-align:center; padding:10px;">
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
